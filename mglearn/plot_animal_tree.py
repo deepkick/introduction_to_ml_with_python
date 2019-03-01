@@ -1,6 +1,6 @@
-from scipy.misc import imread
+#from scipy.misc import imread
+from matplotlib.pyplot import imread
 import matplotlib.pyplot as plt
-
 
 def plot_animal_tree(ax=None):
     import graphviz
